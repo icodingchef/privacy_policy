@@ -3,54 +3,32 @@
 - 회사는 서비스 제공을 위해 다음과 같은 개인정보를 수집할 수 있습니다:
 - 수집 항목: 이메일 주소, 닉네임, 기기 정보(단말기 모델명, OS 버전 등), 위치정보(선택적), 사용자 행동 기록(앱 내 기능 사용 통계 등)
 - 수집 방법: 앱 실행 시 사용자 입력, 자동 수집 도구(예: Google Analytics, Firebase), 회원가입 양식 등
-2. 개인정보의 수집 및 이용 목적
+## 2. 개인정보의 수집 및 이용 목적
 회사는 수집한 개인정보를 다음의 목적을 위해 활용합니다:
 - 서비스 제공에 따른 본인 식별, 인증 및 기능 제공
 - 고객 문의 응대 및 문제 해결
 - 앱 기능 개선 및 사용자 경험 향상
 - 마케팅 및 광고에의 활용(동의한 경우에 한함)
-## 제 3장: 맥 OS 개발 환경 구축
-- 맥 환경에서 플러터 개발환경 구축은 의외로 꽤 까다롭습니다. 실리콘 맥(M2)를 기준으로 실패없이 플러터 개발환경을 구축하는 방법을 설명합니다.
-## 제 4장: 플러터의 핵심은 위젯이다!
-- 위젯의 기본 개념을 한 번에 이해할 수 있도록 설명합니다.
-## 제 5장: 플러터를 위한 다트 기초지식
-- 플러터 앱을 만들기 위해서 반드시 알아야하는 프로그래밍 언어인 다트(Dart)의 기본 개념을 핵심만 뽑아서 심플하게 설명합니다.
-## 제 6장: 플러터 왕초보 탈출하기
-- 처음 플러터 앱을 만들 때 템플릿처럼 구성되는 main.dart 페이지의 코드를 완벽하게 이해할 수 있도록 하나하나 설명합니다. 
-## 제 7장: 캐릭터 카드 페이지 앱 만들기
-- 플러터의 주요 기본 위젯들을 사용해서 귀여운 캐릭터 카드페이지 앱을 만들어 봅니다.
-- [캐릭터 카드페이지 앱](https://github.com/icodingchef/character_page_app)
-## 제 8장: Animal Sounds 앱 구현하기
-좀 더 다양한 위젯들을 사용해서 동물 이미지를 탭(tap)하면 해당 동물의 울음 소리가 구현되는 보다 완성도 높은 앱을 만들어 봅니다.
-- [Animal Sounds 앱](https://github.com/icodingchef/animal_book)
-## 제 9장: Stateless 위젯 vs Stateful 위젯
-- 플러터의 핵심인 Stateless 위젯과 Stateful 위젯에 대한 심화학습을 합니다.  
-- [부모 위젯이 자식 위젯에게 데이터 전달 예제 앱](https://github.com/icodingchef/data_pass)
-- [build() 메서드 호출 예제 앱](https://github.com/icodingchef/stateless_example)
-- [setState() 메서드 호출 예제 앱](https://github.com/icodingchef/stateful_ex)
-- [final 변수 사용 예제 앱](https://github.com/icodingchef/final_app)
-- [Stateful 위젯 인스턴스 재사용 예제 앱](https://github.com/icodingchef/stateful_reinitialize/tree/updated)
-- [widget 속성 사용 예제 앱](https://github.com/icodingchef/stateful_widget)
-## 제 10장: 버튼과 라우트
-- 플러터 앱에서 사용되는 버튼들과 페이지 이동 구현 방법을 알아봅니다. 특히 페이지 이동과 관련해서 플러터 입문자들이 가장 어려워 하는 개념중에 하나인 "BuildContext"에 대해서도 알아봅니다.
-- [플러터 버튼 예제 앱](https://github.com/icodingchef/buttons)
-- [앱화면 이동 예제 앱](https://github.com/icodingchef/navigator_ex)
-## 제 11장: 로그인 페이지와 코드 리팩토링
-- 다양한 애니메이션이 구현되는 깔끔한 로그인 페이지 UI를 만들어 보고, 이와 관련해서 보다 효율적인 유지/보수를 위한 코드 리팩토링 방법도 알아봅니다.
-- [로그인 페이지 UI 앱](https://github.com/icodingchef/login_app)
-## 제 12장: 반응형 레이아웃 앱
-- 다양한 기기에 맞추어서 일관된 UI를 구현할 수 있는 기초적인 반응형 레이아웃을 만드는 방법을 알아봅니다.
-- [반응형 레이아웃 앱](https://github.com/icodingchef/login_responsive_app)
-## 제 13장: 로또 앱 구현하기
-- 플러터 앱을 만들 때 가장 많이 사용되는 위젯과 기능들을 사용해서 재미있는 로또 앱을 만들어 봅니다.
-- [로또 앱 1단계](https://github.com/icodingchef/login_lotto)
-- [로또 앱 2단계](https://github.com/icodingchef/login_responsive_lotto2)
-- [로또 앱 3단계(최종)](https://github.com/icodingchef/login_lotto2)
-## 제 14장: Future, async, await
-- 거의 모든 앱에서 사용된다고 할 수 있는 "비동기 방식"을 구현하는 기본 방법과 개념에 대해서 충실하게 알아봅니다.
-- [Future 데이터 출력 앱](https://github.com/icodingchef/future_example)
-- [Stream 데이터 출력 앱](https://github.com/icodingchef/stream_example)
-## 제 15장: 날씨 앱 구현하기
-- Open Weather Map의 API를 사용해서 현재 내가 있는 지역의 날씨를 출력해 주는 실용적인 앱을 만들어 봅니다.
-- [날씨 앱 1단계](https://github.com/icodingchef/weather_app_part1)
-- [날씨 앱 2단계](https://github.com/icodingchef/weather_app_part2)
+## 3. 개인정보의 보유 및 이용 기간
+회사는 개인정보 수집 및 이용 목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다. 단, 다음의 정보는 법령에 따라 일정 기간 보관합니다:
+- 계약 또는 청약철회 등에 관한 기록: 5년
+- 소비자의 불만 또는 분쟁처리에 관한 기록: 3년
+## 4. 개인정보의 제3자 제공
+- 회사는 이용자의 개인정보를 원칙적으로 외부에 제공하지 않습니다. 다만, 이용자의 별도 동의가 있거나 법령에 의한 경우에는 예외로 합니다.
+## 5. 개인정보 처리의 위탁
+- Google Firebase	사용자 인증,
+- 용도: 앱 성능 분석	회원 탈퇴 또는 계약 종료 시까지
+## 6. 이용자의 권리와 그 행사 방법
+- 이용자는 언제든지 자신의 개인정보에 대한 열람, 정정, 삭제, 처리정지를 요청할 수 있습니다.
+- 앱 내 설정 메뉴 또는 이메일(codingchef@example.com)을 통해 문의하실 수 있습니다. 
+## 7. 개인정보의 파기절차 및 방법
+- 회사는 수집한 개인정보의 처리 목적이 달성된 후에는 지체 없이 파기합니다. 전자적 파일 형태는 복구 불가능한 기술적 방법을 이용하여 삭제하며, 종이 문서 형태는 분쇄하거나 소각합니다.
+## 8. 개인정보의 안전성 확보 조치
+회사는 개인정보 보호를 위해 다음과 같은 조치를 취하고 있습니다:
+- 데이터 암호화 및 접근 권한 최소화
+- 보안 프로그램 설치 및 주기적인 점검
+- 내부 교육 및 점검 체계 운영
+## 10. 고지 의무
+본 개인정보 처리방침은 법령 및 회사 정책에 따라 변경될 수 있으며, 변경 시 앱 내 공지사항 또는 웹사이트를 통해 공지합니다.
+- 시행일자: 2025년 7월 14일
+
